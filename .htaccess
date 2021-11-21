@@ -1,0 +1,7 @@
+header always set X-Content-Type-Options nosniff
+header always set X-Frame-Options DENY
+header always set Content-Security-Policy "block-all-mixed-content;default-src 'none'"
+
+Options +ExecCGI
+AddType cgi-script .py
+DirectoryIndex index.py
