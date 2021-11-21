@@ -17,7 +17,7 @@ To create the bloomfilter file:
 
         wc -l [list].txt
 
-* Calculate m (https://krisives.github.io/bloom-calculator/)[https://krisives.github.io/bloom-calculator/]
+* Calculate m [https://krisives.github.io/bloom-calculator/](https://krisives.github.io/bloom-calculator/)  
   (for v7 with error p = 0.0005: n = 613584246, m = 9707076175)
 
 * Create filter:
