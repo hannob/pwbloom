@@ -4,7 +4,7 @@ import hashlib
 import cgi
 import bloom
 
-FILTER = "passwords-v6.bloom"
+FILTER = "passwords-v7.bloom"
 
 print("Content-type:text/plain")
 print("")
