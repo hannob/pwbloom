@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 import hashlib
+import os
 import sys
 
 import bloom
@@ -9,6 +10,10 @@ FILTER = "passwords-v7.bloom"
 
 print("Content-type: text/plain")
 print("")
+
+if os.environ["REQUEST_METHOD"] != "POST":
+    print("error")
+    exit()
 
 password = None
 for line in sys.stdin.readlines():
