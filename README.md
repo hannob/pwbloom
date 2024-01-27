@@ -9,7 +9,9 @@ In addition to this repo you will need:
 * [bloom.py script by Hector Martin](
   https://gist.github.com/marcan/23e1ec416bf884dcd7f0e635ce5f2724)
 * Bloomfilter file based on [Pwned Passwords list (SHA-1, ordered by hash) by Troy
-  Hunt](https://haveibeenpwned.com/Passwords)
+  Hunt](https://haveibeenpwned.com/Passwords) (unfortunately, a simple download of the
+  Pwned Passwords list is no longer available, the [last version can be found at the
+  Internet Archive](https://archive.org/details/pwned-passwords-version-8).
 
 To create the bloomfilter file:
 
