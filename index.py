@@ -6,7 +6,7 @@ import sys
 
 import bloom
 
-FILTER = "passwords-v7.bloom"
+FILTER = "passwords.bloom"
 
 print("Content-type: text/plain")
 print("")
