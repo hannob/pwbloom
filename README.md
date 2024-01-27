@@ -2,12 +2,13 @@
 Simple web index to use bloom filter for Pwned Passwords
 
 The index.py runs a simple CGI web service checking passwords with a bloom filter for
-the Pwned Passwords list.
+the Pwned Passwords list. It uses the [bloom.py script by Hector Martin](
+https://gist.github.com/marcan/23e1ec416bf884dcd7f0e635ce5f2724). A copy is included in
+this repo.
 
-In addition to this repo, you will need:
+In addition, you will need:
 
-* [bloom.py script by Hector Martin](
-  https://gist.github.com/marcan/23e1ec416bf884dcd7f0e635ce5f2724)
+* 
 * Bloomfilter file based on [Pwned Passwords list (SHA-1, ordered by hash) by Troy
   Hunt](https://haveibeenpwned.com/Passwords). Unfortunately, a simple download of the
   Pwned Passwords list is no longer available. The [last version can be found at the
