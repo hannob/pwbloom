@@ -22,8 +22,8 @@ To create the bloomfilter file:
         wc -l [list].txt
 
 * Calculate m [https://krisives.github.io/bloom-calculator/](
-  https://krisives.github.io/bloom-calculator/) (for v7 with error p = 0.0005: n =
-  613584246, m = 9707076175)
+  https://krisives.github.io/bloom-calculator/) (with error p = 0.0005, for v7 n =
+  613584246, m = 9707076175, k = 11, for v8 n = 847223402, m = 13403313651, k = 11)
 
 * Create filter:
 
