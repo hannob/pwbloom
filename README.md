@@ -22,7 +22,7 @@ To create the bloomfilter file:
 
         wc -l [list].txt
 
-* Calculate m [https://krisives.github.io/bloom-calculator/](
+* Calculate m and k with [https://krisives.github.io/bloom-calculator/](
   https://krisives.github.io/bloom-calculator/).
 
 * Create filter:
@@ -31,9 +31,9 @@ To create the bloomfilter file:
 
 Example values:
 
-|    | error (p) | count (n) | functions (k) | size (m)    |
-| -- | --------- | --------- | ------------- | ----------- |
-| v7 | 0.0005    | 613584246 | 10.96 (~11)   |  9707076175 |
+|    | error (p) | count (n) | functions (k) |  size (m)   |
+|----|-----------|-----------|---------------|-------------|
+| v7 | 0.0005    | 613584246 | 10.96 (~11)   | 9707076175  |
 | v7 | 0.00005   | 613584246 | 14.28 (~14)   | 12647696584 |
 | v8 | 0.0005    | 847223402 | 10.96 (~11)   | 13403313651 |
 | v8 | 0.00005   | 847223402 | 14.28 (~14)   | 17463656535 |
