@@ -3,6 +3,7 @@
 import hashlib
 import os
 import sys
+import urllib.parse
 
 import bloom
 
@@ -23,6 +24,9 @@ for line in sys.stdin.readlines():
 if not password:
     print("error")
     exit()
+
+# we need to urldecode POST data
+password = urllib.parse.unquote(password)
 
 value = hashlib.sha1(password.encode("utf-8")).hexdigest()
 
